@@ -1,0 +1,14 @@
+<input type="text" bindinput="handleInputR"/>
+<view>{{num}}</view>
+
+<button bindtap="handletap" data-step="{{1}}">+</button>
+<button bindtap="handletap" data-step="{{-1}}">-</button>
+<!-- 标签属性传递参数控制 自定义控件 -->
+<tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+第
+<block wx:if="{{tabs[0].isActive}}">0️⃣</block>
+<block wx:if="{{tabs[1].isActive}}">1️⃣</block>
+<block wx:if="{{tabs[2].isActive}}">2️⃣</block>
+<block wx:if="{{tabs[3].isActive}}">3️⃣</block>
+个页面被选中
+</tabs>

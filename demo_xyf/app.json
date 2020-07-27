@@ -1,13 +1,26 @@
 {
     "pages": [
-        "pages/page_1/page_1",
-        "pages/page_2/page_2",
-        "pages/page_3/page_3",
-        "pages/page_4/page_4",
-        "pages/logs/logs",
+        "pages/index/index",
+        "pages/QA/QA",
+        "pages/consult/consult",
+        "pages/me/me",
+
+        "pages/Psytest/Psytest",
+        "pages/article/article",
+
+        "pages/Singleconsult/Singleconsult",
+        "pages/im/im",
+        "pages/SingleQA/SingleQA",
+        
+
+        "pages/auth/auth",
+        "pages/login/login",
+        "pages/pay/pay",
+        "pages/feedback/feedback",
         "pages/404/404"
     ],
-    "entryPagePath": "pages/page_1/page_1",
+    "entryPagePath": "pages/index/index",
+
     "window": {
         "backgroundTextStyle": "dark",
         "backgroundColor": "#aa94ff",
@@ -18,26 +31,26 @@
     "tabBar": {
         "list": [
             {
-                "pagePath": "pages/page_1/page_1",
-                "text": "page_1",
+                "pagePath": "pages/index/index",
+                
                 "iconPath": "icon/1.jpg",
                 "selectedIconPath": "icon/1.jpg"
             },
             {
-                "pagePath": "pages/page_2/page_2",
-                "text": "page_2",
+                "pagePath": "pages/QA/QA",
+                
                 "iconPath": "icon/2.jpg",
                 "selectedIconPath": "icon/2.jpg"
             },
             {
-                "pagePath": "pages/page_3/page_3",
-                "text": "page_3",
+                "pagePath": "pages/consult/consult",
+                
                 "iconPath": "icon/3.jpg",
                 "selectedIconPath": "icon/3.jpg"
             },
             {
-                "pagePath": "pages/page_4/page_4",
-                "text": "page_4",
+                "pagePath": "pages/me/me",
+                
                 "iconPath": "icon/4.jpg",
                 "selectedIconPath": "icon/4.jpg"
             }
