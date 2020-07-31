@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "searchPage":"../../components/searchPage/searchPage"
+  }
 }

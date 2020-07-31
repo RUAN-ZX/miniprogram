@@ -1,2 +1,24 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+
+<searchPage>
+
+</searchPage>
+
+
+<view class="index_swiper">
+    <swiper autoplay indicator-dots circular>
+        <swiper-item
+            wx:for="{{swiperList}}"
+            
+        >
+            <navigator>
+                <image mode="cover" src="{{item}}"></image>
+            </navigator>
+
+        </swiper-item>
+
+
+
+
+    </swiper>
+</view>

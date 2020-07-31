@@ -18,6 +18,7 @@
         "pages/pay/pay",
         "pages/feedback/feedback",
         "pages/404/404"
+
     ],
     "entryPagePath": "pages/index/index",
 
@@ -26,6 +27,7 @@
         "backgroundColor": "#aa94ff",
         "navigationBarBackgroundColor": "#0094ff",
         "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "Life",
         "enablePullDownRefresh": true
     },
     "tabBar": {
@@ -34,7 +36,7 @@
                 "pagePath": "pages/index/index",
                 
                 "iconPath": "icon/1.jpg",
-                "selectedIconPath": "icon/1.jpg"
+                "selectedIconPath": "icon/2.jpg"
             },
             {
                 "pagePath": "pages/QA/QA",
