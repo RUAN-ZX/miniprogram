@@ -7,18 +7,13 @@
 
 <view class="index_swiper">
     <swiper autoplay indicator-dots circular>
-        <swiper-item
-            wx:for="{{swiperList}}"
-            
-        >
+        <swiper-item wx:for="{{swiperList}}">
             <navigator>
                 <image mode="cover" src="{{item}}"></image>
             </navigator>
 
         </swiper-item>
 
-
-
-
     </swiper>
 </view>
+<button onclick="btn1">wwerwer</button>

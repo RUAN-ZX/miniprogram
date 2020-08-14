@@ -3,6 +3,13 @@ Page({
 
     /**
      * 页面的初始数据
+     * 
+*       wx.showTabBarRedDot({
+          index: 3,
+        });
+        wx.hideTabBarRedDot({
+          index: 0,
+        });
      */
     data: {
         swiperList:[]

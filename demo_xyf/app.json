@@ -24,8 +24,8 @@
 
     "window": {
         "backgroundTextStyle": "dark",
-        "backgroundColor": "#aa94ff",
-        "navigationBarBackgroundColor": "#0094ff",
+        "backgroundColor": "#91b4ff",
+        "navigationBarBackgroundColor": "#91b4ff",
         "navigationBarTextStyle": "white",
         "navigationBarTitleText": "Life",
         "enablePullDownRefresh": true
@@ -35,26 +35,26 @@
             {
                 "pagePath": "pages/index/index",
                 
-                "iconPath": "icon/1.jpg",
-                "selectedIconPath": "icon/2.jpg"
+                "iconPath": "icon/index_.jpg",
+                "selectedIconPath": "icon/index.jpg"
             },
             {
                 "pagePath": "pages/QA/QA",
                 
-                "iconPath": "icon/2.jpg",
-                "selectedIconPath": "icon/2.jpg"
+                "iconPath": "icon/feeling_.jpg",
+                "selectedIconPath": "icon/feeling.jpg"
             },
             {
                 "pagePath": "pages/consult/consult",
                 
-                "iconPath": "icon/3.jpg",
-                "selectedIconPath": "icon/3.jpg"
+                "iconPath": "icon/consult_.jpg",
+                "selectedIconPath": "icon/consult.jpg"
             },
             {
                 "pagePath": "pages/me/me",
                 
-                "iconPath": "icon/4.jpg",
-                "selectedIconPath": "icon/4.jpg"
+                "iconPath": "icon/me_.jpg",
+                "selectedIconPath": "icon/me.jpg"
             }
         ],
         "color": "#aaaaaa",
