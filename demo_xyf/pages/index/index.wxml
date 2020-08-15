@@ -1,19 +1,86 @@
 <!--pages/index/index.wxml-->
 
-<searchPage>
-
-</searchPage>
+<view class="backgroud"></view>
 
 
-<view class="index_swiper">
-    <swiper autoplay indicator-dots circular>
-        <swiper-item wx:for="{{swiperList}}">
-            <navigator>
-                <image mode="cover" src="{{item}}"></image>
-            </navigator>
+<view class="search" style="padding-top: {{cap_info.top+0.1*cap_info.height}}px;">
+    <image class="searchImage" style="height:{{cap_info.height}}px;width:{{cap_info.height}}px;"
+        src="../../icon/search.png">
+    </image>
 
-        </swiper-item>
-
-    </swiper>
+    <navigator class="navigator" url="../../pages/article/article" open-type="navigate"
+        style="height: {{cap_info.height}}px; width:{{cap_info.left-cap_info.width}}px;">
+        搜索
+    </navigator>
 </view>
-<button onclick="btn1">wwerwer</button>
+
+
+
+<view class="index_wrapper">
+
+    <view class="index_swiper" hover-class="index_swiper_hover">
+        <swiper autoplay indicator-dots circular>
+            <swiper-item wx:for="{{swiperList}}">
+                <navigator>
+                    <image mode="cover" src="{{item}}"></image>
+
+                </navigator>
+
+            </swiper-item>
+
+        </swiper>
+    </view>
+
+    <view class="interval"></view>
+
+    <view class="top_card">
+        <view class="div_1">
+            <view wx:for="{{div_1}}" class="div_wrapper_1">
+                <view class="div_image_wrapper_1" hover-class="div_image_wrapper_1_hover">
+                    <image hover-class="div_image_1_hover" class="div_image_1" mode="cover" src="{{item.src}}"></image>
+
+                </view>
+                <view class="div_text_1">{{item.text}}</view>
+            </view>
+
+        </view>
+
+        <view class="div_2" hover-class="div_2_hover">
+            <view wx:for="{{div_2}}" class="div_image_wrapper_2" hover-class="div_image_wrapper_2_hover">
+                <image class="div_image_2" mode="cover" src="{{item}}"></image>
+            </view>
+        </view>
+
+
+    </view>
+
+    <view class="interval"></view>
+
+
+
+
+    <view class="consultant_card">
+        <view class="consultant_card_title">咨询·解答</view>
+
+        <tabs tabs="{{tabs}}" binditemChange="handleTabsChange" class="tabs">
+            <list_info list_info_data="{{list_info_data}}">
+
+            </list_info>
+
+
+
+        </tabs>
+
+    </view>
+
+    <view class="interval"></view>
+
+
+    <view class="listenner_card">
+        <view class="listenner_card_title"></view>
+
+    </view>
+
+</view>
+
+

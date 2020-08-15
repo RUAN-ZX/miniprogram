@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "searchPage":"../../components/searchPage/searchPage"
+    "tabs":"../../components/tabs/tabs",
+    "list_info":"../../components/list_info/list_info"
   }
 }

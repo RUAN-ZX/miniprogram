@@ -10,8 +10,8 @@ page,view,text,swiper,swiper-item,image,navigator{
 
 page{
   /* 定义主题颜色 */
-  --themeColor:#91b4ff;
-
+  /* --themeColor:#91b4ff;*/
+  --themeColor:#c5e5ff;
 
 }
 

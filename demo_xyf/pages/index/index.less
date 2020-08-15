@@ -1,9 +1,199 @@
-.index_swiper{
-    swiper{
-        width: 750rpx;
-        height: 340rpx;
-        image{
+.backgroud{
+    height: 1500rpx;
+    width: 750rpx;
+    position: fixed;
+    background-color: var(--themeColor); 
+    z-index: 0;
+}
+.search{
+    position:relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx;
+    
+    .navigator{
+        z-index: inherit;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        background-color: aliceblue;
+        border-radius: 35rpx;
+        color: #91b4ff;
+        font-weight: 600;
+    }
+    .searchImage{
+        z-index: inherit;
+    }
+}
+
+
+
+
+.index_wrapper{
+    padding: 20rpx;
+    .interval{
+        position:relative;
+        height: 20rpx;
+        width: 100%;
+        padding: 20rpx;
+        z-index: -1;
+
+    }
+    .index_swiper_hover{
+        opacity: 0.9;
+        background: #f7f7f7;
+        border-radius: 30rpx;
+    }
+    
+    .index_swiper{
+        position:relative;
+        z-index: 1;
+        height: 230rpx;
+        
+        border-radius: 30rpx;
+        box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        swiper{
             width: 100%;
+            height: 230rpx;
+            
+            image{
+                
+                border-radius: 30rpx;
+                width: 100%;
+                height: 230rpx;
+            }
+        }
+    }
+    .top_card{
+        position:relative;
+        padding: 20rpx;
+        background-color: aliceblue;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30rpx;
+
+        box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        .div_1{
+                display: grid;
+                grid-template-columns: repeat(5,97rpx);
+                grid-template-rows: repeat(2,97rpx);
+                grid-row-gap: 47.86rpx;
+                grid-column-gap: 47.86rpx;
+                z-index: 2;
+                padding-bottom: 47.86rpx;
+            .div_wrapper_1{
+                display: flex;
+                flex-direction: column;
+
+                .div_image_wrapper_1{
+                    background-color:#f0f0f0;
+                    width: 97rpx;
+                    border-radius: 97rpx;
+                    height: 97rpx;
+                    z-index: 3;
+                    .div_image_1{
+                        padding-top: 11rpx;
+                        padding-left: 16rpx;
+                        z-index: 4;
+                        width: 80rpx;
+                        border-radius: 80rpx;
+                        height: 80rpx;
+        
+                    }
+                    
+                }
+                .div_image_wrapper_1_hover{
+                    opacity: 0.9;
+                    background: #91b4ff;
+                }
+                .div_text_1{
+                    padding-top: 10rpx;
+                    color: #252525;
+                    font-size: 24rpx;
+                }    
+                
+                
+                
+            }
+        }
+        .div_2{
+            padding-top: 20rpx;
+            display: grid;
+            grid-template-columns: repeat(4,140rpx);
+            grid-template-rows: repeat(1,140rpx);
+            grid-row-gap: 10rpx;
+            grid-column-gap: 36.7rpx;
+            z-index: 1;
+            .div_image_wrapper_2{
+
+                .div_image_2{
+                    box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+                    transition: 0.3s;
+                    z-index: 2;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 20rpx;
+
+                }
+
+            }
+            .div_image_wrapper_2_hover{
+                opacity: 0.6;
+                background: aliceblue;
+            }
+            
+        }
+    }
+    .consultant_card{
+        background-color: aliceblue;
+        
+        position:relative;
+        height: 560rpx;
+        width: 100%;
+        padding: 10rpx 20rpx 20rpx 20rpx;
+        z-index: 1;
+
+        border-radius: 30rpx;
+        box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        .consultant_card_title{
+            font-size: 50rpx;
+            font-weight: bolder;
+            color: #000;
+        }
+        
+
+
+    }
+    .listenner_card{
+        background-color: aliceblue;
+        position:relative;
+        height: 560rpx;
+        width: 100%;
+        padding: 20rpx;
+        z-index: 1;
+        
+        border-radius: 30rpx;
+        box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        
+        .listenner_card_title{
+            font-size: 50rpx;
+            font-weight: bolder;
+            color: #000;
         }
     }
 }
+
+
+
+
+
+

@@ -28,37 +28,38 @@
         "navigationBarBackgroundColor": "#91b4ff",
         "navigationBarTextStyle": "white",
         "navigationBarTitleText": "Life",
-        "enablePullDownRefresh": true
+        "enablePullDownRefresh": true,
+        "navigationStyle": "custom"
     },
     "tabBar": {
         "list": [
             {
                 "pagePath": "pages/index/index",
-                
+                "text": "首页",
                 "iconPath": "icon/index_.jpg",
                 "selectedIconPath": "icon/index.jpg"
             },
             {
                 "pagePath": "pages/QA/QA",
-                
+                "text": "心事",
                 "iconPath": "icon/feeling_.jpg",
                 "selectedIconPath": "icon/feeling.jpg"
             },
             {
                 "pagePath": "pages/consult/consult",
-                
+                "text": "咨询",
                 "iconPath": "icon/consult_.jpg",
                 "selectedIconPath": "icon/consult.jpg"
             },
             {
                 "pagePath": "pages/me/me",
-                
+                "text": "我的",
                 "iconPath": "icon/me_.jpg",
                 "selectedIconPath": "icon/me.jpg"
             }
         ],
-        "color": "#aaaaaa",
-        "selectedColor": "#eeeeee",
+        "color": "#bfbfbf",
+        "selectedColor": "#91b4ff",
         "borderStyle": "black"
     },
     "sitemapLocation": "sitemap.json"

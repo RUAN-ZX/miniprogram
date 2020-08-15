@@ -1,17 +1,33 @@
-/* components/tabs/tabs.wxss */
-.tabs{}
-.tabs_title{
-    display:flex;
-    padding: 16rpx;
+.skill-sequence-panel-content-wrapper {
+  position: relative;
+  height: 40rpx;
+  white-space: nowrap;
+  margin-top: 20rpx;
+  /*左右渐变遮罩*/
 }
-.tabs_item{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.skill-sequence-panel-content-wrapper .hide-content-box {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 40rpx;
+  z-index: 2;
 }
-.active{
-    color: red;
-    border-bottom: 6rpx solid currentColor;
+.skill-sequence-panel-content-wrapper .hide-content-box-left {
+  left: 0;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), aliceblue 60%);
 }
-.tabs_content{}
+.skill-sequence-panel-content-wrapper .hide-content-box-right {
+  right: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), aliceblue 60%);
+}
+.skill-sequence-panel-content-wrapper .skill-sequence-panel-content {
+  min-width: 100%;
+  font-size: 30rpx;
+}
+.skill-sequence-panel-content-wrapper .skill-sequence-panel-content .skill-sequence-skill-wrapper {
+  margin-right: 25rpx;
+  display: inline-block;
+}
+.skill-sequence-panel-content-wrapper .skill-sequence-panel-content .active {
+  font-weight: bold;
+}
